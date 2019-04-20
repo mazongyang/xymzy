@@ -7,8 +7,10 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.Map;
 
+/**
+ * sql构造过程
+ */
 public class BuildSql{
-
 
     public static String getInsertSql(Class<?> type, AbstractPojo vo, Map map){
         String sql = null ;
