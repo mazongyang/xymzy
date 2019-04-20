@@ -10,6 +10,9 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * jdbc
+ */
 public class PojoDAOImpl implements PojoDAO {
     private PreparedStatement preparedStatement = null ;
     @Override
